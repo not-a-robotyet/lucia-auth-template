@@ -35,21 +35,3 @@ export const validateRequest = async (req) => {
 
 
 
-/*
-import { Lucia } from "lucia";
-
-export const lucia = new Lucia({
-	sessionCookie: {
-		name: "auth_session",
-		attributes: {
-			secure: false // set to true if using HTTPS in production
-		}
-	},
-	getUserAttributes: (user) => {
-		return {
-			githubId: user.github_id,
-			username: user.username
-		};
-	}
-});
-*/
