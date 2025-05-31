@@ -37,17 +37,19 @@ lucia-auth-template/
    - Fill in the details for your new repository (name, description, visibility).
    - Click **"Create repository from template"**.
 2. **Clone your new repository**
+   ```
    git clone https://github.com/YOUR-USERNAME/YOUR-NEW-REPO.git
    cd YOUR-NEW-REPO
-3. **Install dependencies**
+   ```
+4. **Install dependencies**
    npm install
-4. **Set up Mailtrap for email delivery in development**
-  - Sign up for a free Mailtrap account at [mailtrap.io](https://mailtrap.io/).
-  - **Go to the "Email Testing"** section and create a new inbox.
-  - Copy the SMTP credentials (host, port, username, password) from your inbox settings.
-5. **Set up environment variables**
-  - Create a `.env` file in the root directory.
-  - Use the following template and replace the values with your own:
+5. **Set up Mailtrap for email delivery in development**
+   - Sign up for a free Mailtrap account at [mailtrap.io](https://mailtrap.io/).
+   - **Go to the "Email Testing"** section and create a new inbox.
+   - Copy the SMTP credentials (host, port, username, password) from your inbox settings.
+6. **Set up environment variables**
+   - Create a `.env` file in the root directory.
+   - Use the following template and replace the values with your own:
   
     ```
     GITHUB_CLIENT_ID=your_github_client_id
@@ -60,8 +62,8 @@ lucia-auth-template/
     EMAIL_USER=your_mailtrap_username
     EMAIL_PASSWORD=your_mailtrap_password
     ```
-  - **Note:** Do not commit your `.env` file to Git for security reasons.
-6. **Start the server**
+   - **Note:** Do not commit your `.env` file to Git for security reasons.
+7. **Start the server**
    node server.js
    - The app will be available at `http://localhost:3000`.
 
