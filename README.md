@@ -90,7 +90,7 @@ Some files are intentionally excluded from version control for security and conv
 
 1. **Open `http://localhost:3000` in your browser.**
 2. **Click "Login with GitHub" to start the authentication flow.**
-3. **Complete 2FA by entering the code sent to your email.**
+3. **Complete 2FA by entering the code sent to your Mailtrap inbox.**
 4. **Access the dashboard after successful authentication.**
 
 
