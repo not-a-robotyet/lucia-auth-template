@@ -12,6 +12,7 @@ A secure authentication template using Lucia, Express, and GitHub OAuth, with 2F
 
 ## Project Structure
 
+```
 lucia-auth-template/
 ├── public/
 │ ├── index.html
@@ -26,6 +27,7 @@ lucia-auth-template/
 ├── package-lock.json
 ├── .env
 └── .gitignore
+```
 
 ## Setup Instructions
 
