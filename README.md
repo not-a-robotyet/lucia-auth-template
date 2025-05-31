@@ -42,12 +42,14 @@ lucia-auth-template/
    cd YOUR-NEW-REPO
    ```
 4. **Install dependencies**
+   ```
    npm install
-5. **Set up Mailtrap for email delivery in development**
+   ```
+6. **Set up Mailtrap for email delivery in development**
    - Sign up for a free Mailtrap account at [mailtrap.io](https://mailtrap.io/).
    - **Go to the "Email Testing"** section and create a new inbox.
    - Copy the SMTP credentials (host, port, username, password) from your inbox settings.
-6. **Set up environment variables**
+7. **Set up environment variables**
    - Create a `.env` file in the root directory.
    - Use the following template and replace the values with your own:
   
@@ -63,7 +65,7 @@ lucia-auth-template/
     EMAIL_PASSWORD=your_mailtrap_password
     ```
    - **Note:** Do not commit your `.env` file to Git for security reasons.
-7. **Start the server**
+8. **Start the server**
    node server.js
    - The app will be available at `http://localhost:3000`.
 
